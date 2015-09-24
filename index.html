@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Snake</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Emerson Luiz">
+	<link rel="stylesheet" type="text/css" href="css/css_snake.css">
+	<link rel="shortcut icon" type="image/gif" href="img/favicon.png">
+</head>
+<body onkeydown="teclas(event)">
+<img id="mySheep" src="img/uva.png" style="display:none;" />
+<img id="mySheep1" src="img/bomb.png" style="display:none;" />
+<img id="mySheep2" src="img/coins.png" style="display:none;" />
+<section>
+<div id="jogo">	
+	<div id="DIVMascara">
+		<div id="DIVTitMascara">Snake</div>
+		<div id="DIVPlay"><img src="img/play1.png" alt="inicio" class="play" onclick="Cobra.init();"/><br><span class="play" onclick="Cobra.init();">Start Game</span></div>
+		<div id="DIVGameOver">Game Over<br><span id="SPNFinalPontos">Score 0</span></div>
+	</div> 
+	<div id="DIVMaxPontos"><b>Record</b><br><span id="SPNMAXPontos">0</span></div>
+	<div id="DIVPontos"><img id="IMGTX" src="img/taxinha.png" alt="painel"/><span id="SPNTitPontos"> Score</span><div id="SPNPontos">0</div></div>
+	<canvas id="Cenario" width="420" height="420"></canvas>
+</div>
+
+</section>
+<script type="text/javascript" src="scripts/script_snake.js"></script>
+<script type="text/javascript">	
+	window.onload = Cobra.start();
+</script>
+</body>
+</html>

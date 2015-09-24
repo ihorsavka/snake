@@ -1,0 +1,20 @@
+body{font-family: arial, helvetica, serif;}
+canvas{background-image: url("../img/gramado.jpg"); margin: 0px 18px;}
+h1{margin:0; font-size: 30px; color: #006400; font-weight: bolder;}
+h2{margin: 0; font-size: 16px; font-weight: normal;}
+h3{margin-top: 20px; font-size: 18px; text-decoration: underline;}
+.IMGInstruct{vertical-align:text-top; width: 16px; height: 16px;}
+#jogo{background-image: url("ppx.jpg"); width: 460px; height: 535px; border: 1px solid #1C1C1C;float: left; font-size: 15px}
+#sobre{float: left; margin-left: 8px; border: 1px solid #696969; padding: 5px; width: 410px; font-size: 14px;}
+#DIVBtn{width: 420; height: 60; background: #000;}
+#DIVPontos{float: right; height: 55px; width: 95px; background: #FFE4C4; margin: 21px 23px; -webkit-transform: rotate(8deg); -moz-transform: rotate(8deg); -o-transform: rotate(8deg); transform: rotate(8deg);}
+#DIVMaxPontos{float: left; width: 80px; height:50px; border: 1px solid #B5B5B5; color: #FF0000; text-align: center; margin: 18px 16px; opacity:0.60; -moz-opacity: 0.60; filter: alpha(opacity=60); background: #000;}
+#IMGTX{position: relative; top:-12px; left: -8px;}
+#SPNTitPontos{font-style: italic; font-weight: bold;  position:relative; top: -5px; left: 3x}
+#SPNPontos{font-weight: bold; color: #FF0000; font-size: 20px; width: 100px; text-align: center; position:relative; top: -5px; left: -3px;}
+#SPNMAXPontos{font-weight: bold; color: #FFF; font-size: 20px; position: relative; top: 3px;}
+#DIVMascara{height: 535px; width: 460px; position: absolute; opacity:0.80; -moz-opacity: 0.70; filter: alpha(opacity=70); background: #000; z-index: 1; color:#FFF;}
+#DIVTitMascara{color: #FFF; font-weight: bold; font-size: 80px; text-align: center; margin-top: 120px}
+#DIVPlay{text-align: center; margin-top: 50px;}
+.play{cursor: pointer;}
+#DIVGameOver{margin-top: 100px; text-align: center; font-size: 20px; color: #FF8C00; display: none}
